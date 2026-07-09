@@ -1,0 +1,20 @@
+{
+  "dashscope": {
+    "api_key": "sk-xxx",
+    "workspace_id": "your-workspace-id"
+  },
+  "oss": {
+    "bucket": "your-oss-bucket",
+    "endpoint": "https://oss-cn-beijing.aliyuncs.com",
+    "access_key_id": "your-oss-access-key-id",
+    "access_key_secret": "your-oss-access-key-secret"
+  },
+  "translation": {
+    "access_key_id": "your-translation-access-key-id",
+    "access_key_secret": "your-translation-access-key-secret"
+  },
+  "cloudflare": {
+    "account_id": "your-cloudflare-account-id",
+    "api_token": "your-cloudflare-workers-ai-api-token"
+  }
+}

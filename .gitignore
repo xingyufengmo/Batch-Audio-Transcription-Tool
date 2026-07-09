@@ -1,0 +1,13 @@
+__pycache__/
+.agents/
+.venv/
+venv/
+data/
+build/
+dist/
+release/
+测试文件/
+.env
+config.json
+skills-lock.json
+*.pyc

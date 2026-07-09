@@ -1,0 +1,7 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+dashscope==1.20.14
+oss2==2.19.1
+alibabacloud-alimt20181012==1.4.0
+alibabacloud-tea-openapi==0.3.13

@@ -2,6 +2,8 @@
 
 一个本地 Web 工具：支持电脑麦克风录音、上传单个音频、选择多个文件、选择目录批量上传；可调用阿里云 Fun-ASR 或 Cloudflare Whisper Large V3 Turbo 转写音频，并用机器翻译输出中文或英文结果。
 
+A local web tool that supports recording, single-file upload, multi-file upload, and batch directory upload. It transcribes audio with Aliyun Fun-ASR or Cloudflare Whisper Large V3 Turbo, then uses machine translation to output Chinese or English results.
+
 ## 配置
 
 复制模板文件：

@@ -99,31 +99,3 @@ http://127.0.0.1:8000
 
 批量 200 个文件时，默认并发是 `2`。确认接口限额和费用后，可以用环境变量 `ASR_CONCURRENCY` 调高。
 
-## 打包分发
-
-开发电脑上运行：
-
-```powershell
-.\distribute\build.ps1
-```
-
-生成的压缩包在：
-
-```text
-release\AliyunASRTranslator.zip
-```
-
-对方解压后填写 `config.json`，双击 `start.bat` 即可，不需要安装 Python。
-
-## Cloudflare Whisper
-
-页面里可以选择 `引擎：Cloudflare Whisper`。需要在 `config.json` 里增加：
-
-```json
-"cloudflare": {
-  "account_id": "your-cloudflare-account-id",
-  "api_token": "your-cloudflare-workers-ai-api-token"
-}
-```
-
-Cloudflare 请求器调用 Workers AI 模型 `@cf/openai/whisper-large-v3-turbo`，音频会直接以 base64 发给 Cloudflare，不经过 OSS。
